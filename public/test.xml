@@ -1,0 +1,32 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0">
+  <Ad id="3753">
+    <InLine>
+      <AdSystem>4.0</AdSystem>
+      <AdTitle>sdvsv</AdTitle>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <VideoClicks>
+              <ClickThrough id="clic">https://resetdigital.co/</ClickThrough>
+              <ClickTracking>https://dev.to/sakhnyuk/300-react-interview-questions-2ko4#is-lazy-function-supports-named-exports</ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="0" height="0" type="audio/mpeg" bitrate="128">https://assets.resetsrv.com:444/videos/1642/stream.mp3</MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative>
+        <CompanionAds>
+          <Companion>
+            <StaticResource creativeType="image/jpeg">https://b-us-east09.resetdigital.co:9002/ads/1640.jpg</StaticResource>
+            <TrackingEvents event="creativeView">
+              <Tracking event="companionAdView"/>
+            </TrackingEvents>
+           </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
