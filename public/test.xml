@@ -12,7 +12,7 @@
               <ClickTracking>https://dev.to/sakhnyuk/300-react-interview-questions-2ko4#is-lazy-function-supports-named-exports</ClickTracking>
             </VideoClicks>
             <MediaFiles>
-              <MediaFile delivery="progressive" width="0" height="0" type="audio/mpeg" bitrate="128">https://assets.resetsrv.com:444/videos/1642/stream.mp3</MediaFile>
+              <MediaFile delivery="progressive" width="0" height="0" type="audio/mp3" bitrate="128">https://assets.resetsrv.com:444/videos/1642/stream.mp3</MediaFile>
             </MediaFiles>
           </Linear>
         </Creative>
