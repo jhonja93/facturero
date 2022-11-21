@@ -2,7 +2,9 @@
   <Ad id="20007" sequence="1" conditionalAd="false" adType="audio">
     <InLine>
       <AdSystem version="4.0">test</AdSystem>
-      <Error><![CDATA[https://example.com/error]]></Error>
+      <Error>
+        <![CDATA[https://example.com/error]]>
+      </Error>
       <Extensions>
         <Extension type="iab-Count">
           <total_available>
@@ -10,7 +12,9 @@
           </total_available>
         </Extension>
       </Extensions>
-      <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+      <Impression id="Impression-ID">
+        <![CDATA[https://example.com/track/impression]]>
+      </Impression>
       <Pricing model="cpm" currency="USD">
         <![CDATA[ 25.00 ]]>
       </Pricing>
@@ -18,7 +22,7 @@
       <AdTitle>iabtechlab audio ad</AdTitle>
       <Creatives>
         <Creative id="5480" sequence="1" adId="2447226">
-          <UniversalAdId idRegistry="Ad-ID" >8465</UniversalAdId>
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
           <Linear>
             <Duration>00:00:15</Duration>
             <MediaFiles>
@@ -32,13 +36,15 @@
               </ClickThrough>
             </VideoClicks>
           </Linear>
+        </Creative>
+        <Creative>
           <CompanionAds>
-            <Companion width="0" height="0" assetWidth="500" assetHeight="300">
-            <StaticResource>
-              ![CDATA[https://b-us-east09.resetdigital.co:9002/ads/1640.jpg]
+            <Companion width="0" height="0">
+              <StaticResource creativeType="image/jpg">
+                https://b-us-east09.resetdigital.co:9002/ads/1640.jpg
             </StaticResource>
               <TrackingEvents event="creativeView">
-                <Tracking event="companionAdView"/>
+                <Tracking event="companionAdView" />
               </TrackingEvents>
             </Companion>
           </CompanionAds>
